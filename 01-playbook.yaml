@@ -1,0 +1,7 @@
+- name: ping demo
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  tasks:
+    - name: ping the localhost
+      ping:
