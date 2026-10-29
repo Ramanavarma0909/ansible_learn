@@ -1,0 +1,20 @@
+---
+- name: Install required packages
+  hosts: local
+  connection: local
+  become: true
+  gather_facts: false
+
+  vars:
+    packages:
+      - git
+      - curl
+      - unzip
+
+  tasks:
+    - name: Install packages
+      ansible.builtin.package:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ packages }}"
+      
