@@ -1,7 +1,7 @@
 - name: play1
   hosts: local
   connection: local
-   tasks:
+  tasks:
     - name: print play1
       debug:
         msg: "this is play1 of task1"
@@ -10,9 +10,8 @@
 - name: play2
   hosts: local
   connection: local
-   tasks:
+  tasks:
     - name: print play2
       debug:
         msg: "this is play2 of task2"      
 
-        
