@@ -1,0 +1,7 @@
+- name: demo on debug module
+  hosts: local  
+  connection: local
+  tasks:
+    - name: print hello world
+      debug:
+      
