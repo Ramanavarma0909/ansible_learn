@@ -1,0 +1,42 @@
+- name: "phani varma"
+  last_name: "Penm"
+  dob: 09-08-1990
+  address:
+    - type: permanent
+      door no: 1-175,
+      streetname: gandhinagar
+      city: hyderabad
+      state: telangana
+      pincode: 500084
+    - type: temporary
+      door no: 1-175,
+      streetname: rajahmundry
+      city: east godavari
+      state: ap
+      pincode: 533101
+  skills:
+    - python
+    - java
+    - c++    
+
+- name: "ramana varma"
+  last_name: "Penm"
+  dob: 09-08-1992
+  address:
+    - type: permanent
+      door no: 1-175,
+      streetname: gandhinagar
+      city: hyderabad
+      state: telangana
+      pincode: 500084
+    - type: temporary
+      door no: 1-175,
+      streetname: rajahmundry
+      city: east godavari
+      state: ap
+      pincode: 533101
+  skills:
+    - aws
+    - ansible
+    - python      
+    
